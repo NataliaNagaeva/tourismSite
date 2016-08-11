@@ -1,0 +1,168 @@
+html, body {
+	margin: 0 auto;
+	padding: 0;
+	min-width: 480px;
+}
+
+.content {
+	width: 480px;
+	margin: 0 auto;
+	background-color: rgba(13, 13, 14, 0.5) /*#0c0c0d */;
+	color: #fcfcfc;
+	padding-bottom: 30px;
+	border-radius: 10px;
+}
+
+.purple-text {
+	color: #7b89c7; 
+}
+
+.purple-text > * {
+	color: #7b89c7;
+}
+
+.main-title {
+	display: inline-block;
+	width: 70%;
+	margin: 1px 14px 0px;
+	font-size: 23px;
+}
+
+.comments, #report-form {
+	margin: 0 auto;
+	width: 95%;
+}
+
+.comment {
+	margin: 12px 0;
+	padding-bottom: 2px;
+}
+
+.comment:nth-child(odd) {
+	background-color: rgba(38, 38, 38, 0.9);
+}
+
+.comment:nth-child(even) {
+	background-color: rgba(15, 15, 15, 0.9);
+}
+
+.comment > div {
+	margin: 0 5px;
+}
+
+.comment  .top{
+	padding: 0 0 3px;
+	border-bottom: 1px solid  rgb(220, 220, 220);
+	font-weight: bold;
+}
+
+.top .name, .top .rep-date {
+	display: inline-block;
+	width: 49%;
+}
+
+.top .name {
+	font-size: 20.5px;
+	font-weight: bold;
+}
+
+.top .rep-date {
+	font-size: 85%;
+	text-align: right;
+}
+
+.comment .text {
+	font-size: 14px;
+	text-indent: 13px;
+	padding: 5px 0;
+	padding-left: 2px;
+}
+
+.pagination {
+	font-size: 95%;
+	text-align: center;
+}
+
+.pagination a{
+	text-decoration: none;
+}
+
+#report-form{
+	display: table;
+	border-spacing: 0 10px;
+}
+
+#report-form .row{
+	width: 100%;
+	display: table-row;
+	padding-bottom: 10px;
+}
+
+#report-form .cell{
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+	resize: none;
+}
+
+#report-form .rcell{
+	text-align: right;
+	padding-right: 1px;
+}
+
+.top-align{
+	vertical-align:top;
+}
+
+.bot-align{
+	font-size: 14px;
+	vertical-align:bottom;
+}
+
+.mid-align{
+	font-size: 14px;
+	vertical-align:middle;
+}
+
+#report-form{
+	margin-top: 20px;
+}
+
+#report-form .cell > input[type='text'] {
+	padding: 3px 0;
+}
+
+#report-form .cell > input[type='text'], #report-form .cell > textarea {
+	width: 230px;
+	border-radius: 5px;
+	box-shadow: 0 0 8px rgba(255, 255, 255,0.5);	
+}
+
+#report-form .cell > textarea {
+	border : none;
+}
+
+
+#report-form .cell > input[type='submit'], #login-form input[type='submit'] {
+	border-radius: 6px;
+	background-color: #485069;
+	color: #fcfcfc;
+	border-color: #485069;
+	width: 113px;
+	height: 27px;
+	padding: 2px 0;
+}
+
+#login-form label, #login-form input{
+	display:block;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.bordered {
+	text-decoration: underline !important;
+}
+
+.red {
+	box-shadow: 0 0 10px red !important;
+}
